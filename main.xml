@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<por>
+<daty>12.09.2020-19.09.2020</daty>
+
+<product>
+<name> Product A</name>
+<dzien>
+<name>Pon</name>
+<plan>100</plan>
+<zrobiono>60</zrobiono>
+<wykonanie>60%</wykonanie>
+<bledy>4</bledy>
+<bledyWProdukcji>4%</bledyWProdukcji>
+<bezBledu>96%</bezBledu>
+</dzien>
+<dzien>
+<name>Wt</name>
+<plan>160</plan>
+<zrobiono>30</zrobiono>
+<wykonanie>50%</wykonanie>
+<bledy>7</bledy>
+<bledyWProdukcji>18%</bledyWProdukcji>
+<bezBledu>83%</bezBledu>
+</dzien>
+</product>
+
+<product>
+<name> Product B</name>
+<dzien>
+<name>Pon</name>
+<plan>140</plan>
+<zrobiono>70</zrobiono>
+<wykonanie>70%</wykonanie>
+<bledy>5</bledy>
+<bledyWProdukcji>5%</bledyWProdukcji>
+<bezBledu>93%</bezBledu>
+</dzien>
+</product>
+
+</por>
