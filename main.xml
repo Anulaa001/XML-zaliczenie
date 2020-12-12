@@ -23,6 +23,15 @@
 <bledyWProdukcji>18%</bledyWProdukcji>
 <bezBledu>83%</bezBledu>
 </dzien>
+<dzien>
+<name>Ndz</name>
+<plan>160</plan>
+<zrobiono>30</zrobiono>
+<wykonanie>50%</wykonanie>
+<bledy>7</bledy>
+<bledyWProdukcji>18%</bledyWProdukcji>
+<bezBledu>83%</bezBledu>
+</dzien>
 </product>
 
 <product>
@@ -35,6 +44,15 @@
 <bledy>5</bledy>
 <bledyWProdukcji>5%</bledyWProdukcji>
 <bezBledu>93%</bezBledu>
+</dzien>
+<dzien>
+<name>Ndz</name>
+<plan>160</plan>
+<zrobiono>30</zrobiono>
+<wykonanie>50%</wykonanie>
+<bledy>7</bledy>
+<bledyWProdukcji>18%</bledyWProdukcji>
+<bezBledu>83%</bezBledu>
 </dzien>
 </product>
 

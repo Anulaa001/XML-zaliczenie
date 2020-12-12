@@ -23,12 +23,12 @@
     </xsl:for-each>
 </tr>
     
-    <xsl:for-each select="por/product/dzien">
+    
         
         <tr style="text-align:left">
         
-            <td><xsl:value-of select="name"/></td>
-            
+            <td>Pon</td>
+            <xsl:for-each select="por/product/dzien[name='Pon']">
         
                 <td><xsl:value-of select="plan"/></td>
                 <td><xsl:value-of select="zrobiono"/></td>
@@ -37,10 +37,93 @@
                 <td><xsl:value-of select="bledyWProdukcji"/></td>
                 <td><xsl:value-of select="bezBledu"/></td>
             
-           
+        </xsl:for-each>   
         </tr>
+        <tr style="text-align:left">
         
-    </xsl:for-each>
+            <td>Wt</td>
+            <xsl:for-each select="por/product/dzien[name='Wt']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        </tr>
+        <tr style="text-align:left">
+        
+            <td>Sr</td>
+            <xsl:for-each select="por/product/dzien[name='Sr']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        </tr>
+        <tr style="text-align:left">
+        
+            <td>Czw</td>
+            <xsl:for-each select="por/product/dzien[name='Czw']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        </tr>
+        <tr style="text-align:left">
+        
+            <td>Pt</td>
+            <xsl:for-each select="por/product/dzien[name='Pt']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        </tr>
+        <tr style="text-align:left">
+        
+            <td>Sob</td>
+            <xsl:for-each select="por/product/dzien[name='Sob']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        </tr>
+        <tr style="text-align:left">
+        
+            <td>Ndz</td>
+            <xsl:for-each select="por/product/dzien[name='Ndz']">
+        
+                <td><xsl:value-of select="plan"/></td>
+                <td><xsl:value-of select="zrobiono"/></td>
+                <td><xsl:value-of select="wykonanie"/></td>
+                <td><xsl:value-of select="bledy"/></td>
+                <td><xsl:value-of select="bledyWProdukcji"/></td>
+                <td><xsl:value-of select="bezBledu"/></td>
+            
+        </xsl:for-each>   
+        
+        </tr>
 
 </table>
 </body>
