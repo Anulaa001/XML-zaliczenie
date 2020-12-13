@@ -7,7 +7,7 @@
     <th>Dzień tygodnia</th>
     <xsl:for-each select="por/product">
         
-        <th style="text-align:left"><xsl:value-of select="name"/></th>
+        <th style="text-align:left" colspan="6"><xsl:value-of select="name"/></th>
     </xsl:for-each>
 </tr>
 <tr bgcolor="#E6DDDA">
