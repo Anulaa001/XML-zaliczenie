@@ -4,14 +4,14 @@
 <h2>Tabela porównawcza produkcji dwóch materiałów</h2>
 <table border="1">
 <tr bgcolor="#E6DDDA">
-    <th>Dzień tygodnia</th>
+    <th></th>
     <xsl:for-each select="por/product">
         
         <th style="text-align:left" colspan="6"><xsl:value-of select="name"/></th>
     </xsl:for-each>
 </tr>
 <tr bgcolor="#E6DDDA">
-    <th style="text-align:left">dzien</th>
+    <th style="text-align:left">Dzień tygodnia</th>
     <xsl:for-each select="por/product">
         
         <th style="text-align:left">Plan</th>
